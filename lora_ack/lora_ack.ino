@@ -54,7 +54,6 @@ void loop()
       Serial.println("ACK_OFF SENT");
       send_ack();
         }break;
-      
         case 1:
         { status_var = 1;
       digitalWrite(led,status_var);
@@ -80,5 +79,4 @@ void loop()
          interval_delay = 31000;        
        }
     delay(1);
- 
 }
